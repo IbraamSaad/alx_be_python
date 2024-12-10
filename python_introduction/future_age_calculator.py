@@ -1,7 +1,7 @@
 # future age calculator program
 
 # aske user about his age and store it in VAR
-user_str = input  ("How old are you?\n")
+user_str = input  ("How old are you? ")
 
 # convert str to int
 user = int (user_str)
