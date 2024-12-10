@@ -14,4 +14,4 @@ time = 3
 interest = float (principal * rate * time)
 
 # print the interest VAR
-print (interest)
+print (f"The simple interest is : {interest}")
