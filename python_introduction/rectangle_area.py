@@ -9,7 +9,10 @@ length = 10
 width = 5
 
 # assign area VAR to multiple length * width
-area = length * width
+Area = length * width
 
-# print Area
-print (f"The area of the rectangle is : {area}")
+# store Area in A VAR
+area = Area
+
+# print area
+print (f"The area of the rectangle is: {area}")
