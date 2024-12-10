@@ -11,7 +11,7 @@ rate = 0.05
 time = 3
 
 # multibly each variable to get a imple interesr in 3 year
-interest = float (principal * rate * time)
+interest =  principal * rate * time
 
 # print the interest VAR
 print (f"The simple interest is : {interest}")
