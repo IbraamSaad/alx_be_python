@@ -5,14 +5,20 @@ operation = input("choose the operation (+, -, *, /): ")
 match operation:
     
     case "+":
-        print (f"The result is: {num1+num2}.")
+        result = num1 + num2
+        print (f"The result is: {result}.")
     case "-":
+        result = num1 - num2
         print (f"The result is: {num1-num2}.")
     case "*":
-        print (f"The result is: {num1*num2}.")
+        result = num1 * num2
+        print (f"The result is: {result}.")
     case "/":
-        if operation == "/" and num1 or num2 == 0:
+        if operation == "/" and  num2 == 0:
+            print ("Cannot divide by zero.")
+        elif operation == "/" and num1 == 0:
             print ("Cannot divide by zero.")
         else:
-            print (f"The result is: {num1/num2}.")
+            result = num1 / num2
+            print (f"The result is: {result}.")
      
