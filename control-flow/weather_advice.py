@@ -1,9 +1,9 @@
 # weather advice program
 
-# Print the clothing recommendation based on the weather condition provided by the user.
+# Print the clothing recommendation based on the weather condition provided by the use.
 
 # define a VAR and prompot the user to to tell about weather case today.
-weather = input ("What's the weather like today? (sunny/ rainy/ cold): ")
+weather = input ("What's the weather like today? (sunny/rainy/cold): ")
 
 # use conditional statement 
 if weather == "sunny":
