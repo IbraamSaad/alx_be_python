@@ -2,6 +2,9 @@
 
 # Print the clothing recommendation based on the weather condition provided by the use.
 
+# predfined weather (sunny/rainy/cold)
+print ("weather condition is: sunny, rainy or cold")
+
 # define a VAR and prompot the user to to tell about weather case today.
 weather = input ("What's the weather like today? (sunny/rainy/cold): ")
 
