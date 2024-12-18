@@ -1,24 +1,34 @@
-num1 = int(input("Enter the first number: "))
-num2 = int(input("Enter the second number: "))
-operation = input("choose the operation (+, -, *, /): ")
+num1 = int(input ("Enter first num: "))
+num2 = int(input ("Enter second num: "))
+operation_list = ["+", "-", "*", "/"]
+operation = input("Choose your operation (+, -, *, /): ")
 
-match operation:
+result = int()
+trails = 1
+while trails > 0:
+
+ if operation not in operation_list:
+  operation = input("Choose your operation (+, -, *, /): ")
+ else:
+  match operation:
+   case "/":
+    if num2 == 0:
+     print ("Cannot divided by zero.")
+     break
+    else:
+     result = num1 / num2
+   case "+":
+    result = num1 + num2
+   case "-":
+    result = num1 - num2
+   case "*":
+    result = num1 * num2
+  trails -= 1
+  print (f"The result is: {result}.")
+   
+  
+
+
+        
     
-    case "+":
-        result = num1 + num2
-        print (f"The result is: {result}.")
-    case "-":
-        result = num1 - num2
-        print (f"The result is: {num1-num2}.")
-    case "*":
-        result = num1 * num2
-        print (f"The result is: {result}.")
-    case "/":
-        if operation == "/" and  num2 == 0:
-            print ("Cannot divide by zero.")
-        elif operation == "/" and num1 == 0:
-            print ("Cannot divide by zero.")
-        else:
-            result = num1 / num2
-            print (f"The result is: {result}.")
-     
+    
