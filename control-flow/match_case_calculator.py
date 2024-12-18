@@ -1,7 +1,9 @@
 num1 = int(input ("Enter first num: "))
 num2 = int(input ("Enter second num: "))
-operation_list = ["+", "-", "*", "/"]
+
 operation = input("Choose your operation (+, -, *, /): ")
+
+operation_list = ["+", "-", "*", "/"]
 
 result = int()
 trails = 1
