@@ -1,11 +1,11 @@
 pattern = int(input("Enter the size of the pattern: "))
-row = 0
-while row < pattern:
+draw = 0
+while draw < pattern:
     for _ in range(pattern):
         print ("*", end="")
     print()
-    row += 1
-    if row == pattern:
+    draw += 1
+    if draw == pattern:
         break
         
     
