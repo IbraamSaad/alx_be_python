@@ -1,10 +1,7 @@
 num1 = int(input ("Enter first num: "))
 num2 = int(input ("Enter second num: "))
-
 operation = input("Choose your operation (+, -, *, /): ")
 
-
-result = int()
 
 if num2 == 0 and operation == "/":
     print ("Cannot divided by zero.")
