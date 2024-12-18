@@ -4,7 +4,7 @@ operation = input("Choose the operation (+, -, *, /): ")
 
 
 if num2 == 0 and operation == "/":
-    print ("Cannot divided by zero.")
+    print ("Cannot divide by zero.")
 else:
 
   match operation:
