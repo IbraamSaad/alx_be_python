@@ -18,7 +18,7 @@ else:
     case "*":
       result = num1 * num2
   
-  print (f"The result is: {result}.")
+print (f"The result is: {result}.")
 
     
 
