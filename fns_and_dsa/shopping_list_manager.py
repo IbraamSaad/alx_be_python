@@ -14,7 +14,7 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            items = input("Enter items to be added: ").split()
+            items = input("Enter the item to add: ").split()
             shopping_list += items
             
         elif choice == '2':
