@@ -28,7 +28,7 @@ def main():
             fahrenheit = convert_to_fahrenheit(temperature)
             print(f"{temperature}°C {fahrenheit}")
         case "_":
-            print("Undifined choice.")
+            print("Invalid temperature. Please enter a numeric value.")
 
 if __name__ == "__main__":
     main()
