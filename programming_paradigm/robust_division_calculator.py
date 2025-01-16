@@ -13,4 +13,4 @@ num1 = float(input())
 num2= float(input())
 result = safe_divide(num1,num2)
 
-print(result)
+print(f"The result of the division is: {result}")
