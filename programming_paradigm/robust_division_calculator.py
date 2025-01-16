@@ -1,4 +1,5 @@
 def safe_divide(numerator, denominator):
+
     try:
         result = numerator / denominator
     except ZeroDivisionError:
@@ -7,7 +8,9 @@ def safe_divide(numerator, denominator):
         print("Error: Please enter numeric values only.")
     else:
         return result
-num1 = int(input())
-num2= int(input())
+    
+num1 = float(input())
+num2= float(input())
 result = safe_divide(num1,num2)
+
 print(result)
