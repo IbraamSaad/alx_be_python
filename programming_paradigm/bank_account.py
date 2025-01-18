@@ -18,5 +18,11 @@ class BankAccount:
       
 
     def display_balance(self):
-        print (f" Current Balance: ${self.account_balance}")
+        return f"Current Balance: ${self.account_balance}"
+
+check = BankAccount(50)
+check.deposit(50)
+print(check.withdraw(25))
+
+print(check.display_balance())
 
