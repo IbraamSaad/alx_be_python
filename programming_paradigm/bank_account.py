@@ -20,7 +20,5 @@ class BankAccount:
     def display_balance(self):
         return f"Current Balance: ${self.account_balance}"
 
-check = BankAccount(50)
-print (check.deposit(25))
 
 
