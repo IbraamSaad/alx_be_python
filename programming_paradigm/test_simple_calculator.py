@@ -1,5 +1,5 @@
 import unittest
-from Simple_calcu_class import SimpleCalculator
+from simple_calculator import SimpleCalculator
 
 
 
